@@ -1,0 +1,23 @@
+ 
+ <div class="row">
+   	<div class="col">    
+    <h3>Company: {{customers.company}}</h3>
+    <h4>Basic Details</h4>
+    <ul>
+    	<li><strong>Tel :</strong>{{customers.phone}}</li>
+        <li><strong>Email :</strong>{{customers.phone}}</li>
+        <li><strong>Address :</strong>{{customers.phone}}</li>
+        <li><strong>Account balance :</strong>{{customers.balance  }}</li>
+        <li><strong>Message :</strong>{{customers.greeting}}</li>
+        <li><strong>Friends :</strong> 
+        <ol>
+        <li ng-repeat="list in customers.friends">{{list.name}}</li>
+        </ol>
+        </li>
+    </ul>
+    <h2>About {{customers.name}}</h2>
+    <p>{{customers.about}}</p>
+    
+   	<p></p>
+    </div>
+   </div>      

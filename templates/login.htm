@@ -1,0 +1,46 @@
+<div class="wrapper">
+  <div class="overlay-container"></div>
+  <div id="downloadPDF" class="modalBox">
+    <p class="label-head">Confirmation</p>
+    <p class="note">Do You Want To Download The PDF?</p>
+    <div id="notes"></div>
+    <div class="btn-box">
+      <input type="Submit" value="Yes" class="buttons blue-skin" id="agree-btn" />
+      <input type="reset" value="Cancel" class="buttons blue-skin" id="cancel-btn"/>
+    </div>
+  </div>
+  <div id="login-section">
+    <article class="login-container">
+      <section class="login-content">
+        <form name="loginForm" id="myFrom" action="" method="post">
+          <div class="row"> <label class="left-side">User Name :</label>
+           <span class="right-side">
+            <input type="text" placeholder="User Name" name="user Name" id="fname" ng-model="username"/>
+            </span> 
+            </div>
+          <div class="row"> <span class="left-side">Password :</span> <span class="right-side">
+            <input type="password" placeholder="Password" name="Password" id="userpass"/> 
+            </span> </div>
+          <div class="row"> <span class="left-side"></span> <span class="right-side">
+            <label>
+              <input type="checkbox" name="store" id="store" value="remember-me" />
+              <span>Remember Me</span></label>
+            </span> </div>
+          <div class="row"> <span class="left-side"></span> 
+          <span class="right-side"> 
+          <a name="ModalPopUP" href="javascript:;" id="track">Click to Save</a> | <a name="ModalPopUP" href="javascript:;" id="untrack"> Untrack </a> 
+            </span> 
+           </div>
+          <div class="row"> 
+          <span class="left-side"></span> 
+          <span class="right-side">
+            <input type="reset" value="Reset" class="buttons orange-skin" />
+            <input type="button" value="Login" class="buttons blue-skin" id="userlogin" ng-click="login()" />
+            </span> 
+           </div>
+        </form>
+      </section>
+    </article>
+  </div>
+  <div class="clear"></div>
+</div>

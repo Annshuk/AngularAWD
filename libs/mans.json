@@ -1,0 +1,20 @@
+{
+"products":[
+		{"name": "ID1625 C1", "ref": 1625, "uid": 1625},
+		{"name": "ID1625 C2", "ref": 1625},
+		{"name": "ID1625 C3", "ref": 1625},
+		{"name": "ID1628 C1", "ref": 1628, "uid": 1628},
+		{"name": "ID1628 C2", "ref": 1628},
+		{"name": "ID1628 C3", "ref": 1628},
+		{"name": "ID1631 C1", "ref": 1631, "uid": 1631},
+		{"name": "ID1628 C2", "ref": 1631},
+		{"name": "ID1628 C3", "ref": 1631},
+		{"name": "ID1628 C4", "ref": 1631},
+		{"name": "ID1632P C1", "ref": 1632, "uid": 1632},
+		{"name": "ID1632P C2", "ref": 1632},
+		{"name": "ID1632P C3", "ref": 1632},
+		{"name": "ID1633P C1", "ref": 1633, "uid": 1632},
+		{"name": "ID1633P C2", "ref": 1632},
+		{"name": "ID1633P C3", "ref": 1632}
+	]
+}

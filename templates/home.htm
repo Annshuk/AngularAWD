@@ -1,0 +1,38 @@
+ <div class="jumbotron">
+    <h1>Welcome {{title}}</h1>    
+  </div> 
+ <div class="row">
+   	<div class="col">
+    		<table width="100%" style="border-collapse:collapse; border:1px #E1E1E1 solid;">
+            	<thead>
+                <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Company</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Address</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="data in getData" >
+                <td><a href="#/about/{{data.name}}" ng-click="getDetail()">{{data.name}}</a></td>
+                <td>{{data.age}}</td>	
+                <td>{{data.gender}}</td>
+                <td>{{data.company}}</td>
+                <td>{{data.email}}</td>	
+                <td>{{data.phone}}</td>
+  				<td>{{data.address}}</td>
+                </tr>
+                </tbody>
+                
+                
+                
+            
+            </table> 
+    
+    
+    
+    </div>
+   </div>
